@@ -16,7 +16,7 @@ const NavBar = () => {
 
   return (
     <div className="nav-bar">
-      <ul className="nav-links">
+      <ul>
         <li>
           <Link className="nav-link" to="/login">
             Login

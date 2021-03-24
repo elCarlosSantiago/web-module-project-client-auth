@@ -4,6 +4,7 @@ import Friends from './components/Friends';
 import PrivateRoute from './components/PrivateRoute';
 import { useEffect } from 'react';
 import { Route, Switch } from 'react-router';
+import './styles/styles.css';
 
 const App = () => {
   return (

@@ -30,12 +30,12 @@ const AddFriend = () => {
   };
   return (
     <div className="add-friend-container">
-      <form className="add-friend-form" onSubmit={addFriend}>
+      <form onSubmit={addFriend}>
         <input
           placeholder="Name?"
           type="text"
           name="name"
-          onChange={onChange}
+          onChange={handleChange}
           value={newFriend.name}
         />
 
@@ -43,7 +43,7 @@ const AddFriend = () => {
           placeholder="Age?"
           type="number"
           name="age"
-          onChange={onChange}
+          onChange={handleChange}
           value={newFriend.age}
         />
 
@@ -51,7 +51,7 @@ const AddFriend = () => {
           placeholder="E-mail?"
           type="email"
           name="email"
-          onChange={onChange}
+          onChange={handleChange}
           value={newFriend.email}
         />
         <button>Add Friend!</button>
